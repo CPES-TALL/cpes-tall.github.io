@@ -1,6 +1,12 @@
 
 
 body {
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 100px;
 }
+
+
+h4, p, li {
+    font-size: 20px;
+}
+
