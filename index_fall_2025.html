@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <h1>Traitement Automatique du Langage et de la Littérature</h1>
+
+    <h4>Enseignants</h4>
+    <ul>
+      <li><a href="https://www.linguist.univ-paris-diderot.fr/~amsili/" target="_blank">Pascal Amsili</a></li>
+      <li><a href="https://www.lattice.cnrs.fr/membres/chercheurs-ou-enseignants-chercheurs/mathieu-dehouck/" target="_blank">Mathieu Dehouck</a></li>
+      <li><a href="https://crazyjeannot.github.io" target="_blank">Jean Barré</a></li>
+    </ul>
+
+    <p>Bienvenu⋅e⋅s sur la page du cours TAL².</p>
+    <p>Sur cette page vous trouverez toutes les informations utiles à ce cours. Voir aussi la <a href="https://moodle.psl.eu/course/view.php?id=29195">page Moodle correspondante</a></p>
+    <p>Le matériel de cours est disponible sur GitHub : <a href="https://github.com/CPES-TALL/materiel_TALL">ici</a>
+    <p>
+    <!--p>Les notes finales sont consultables <a href="https://www.linguist.univ-paris-diderot.fr/~amsili/Ens25/pdf/nt-tall.pdf">ici</a>
+      <span style="font-size:80%;">(<a href="https://www.linguist.univ-paris-diderot.fr/~amsili/EnsPerm/consultation_des_notes.html">instructions</a>)</span>
+    </p-->
+
+    <p>Les notes finales sont consultables <a href="https://cpes-tall.github.io/notes%20TALL%2024-25%20consult.pdf">ici</a>
+      <span style="font-size:80%;">(<a href="https://www.linguist.univ-paris-diderot.fr/~amsili/EnsPerm/consultation_des_notes.html">instructions</a>)</span>
+    <br>
+
+    <table>
+      <thead>
+        <tr>
+	  <th>No</th>
+          <th>Cours</th>
+          <th>Date</th>
+          <th>Salle</th>
+          <th>Intervenant</th>
+	  <th>Thème</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="CM"><td>1</td><td>CM</td><td>Mardi 02/09/25</td><td>A5-Amyot</td><td>Jean Barré</td><td>Introduction aux études littéraires computationnelles</td></tr>
+	<tr><td>1</td><td>TD</td><td>Jeudi 04/09/25</td><td>A2-Amyot</td><td>Jean Barré</td><td>Analyse textuelle ; décompte de mots</td></tr>
+        <tr class="CM"><td>2</td><td>CM</td><td>Mardi 09/09/25</td><td>A5-Amyot</td><td>Mathieu Dehouck</td><td>Introduction au TAL</td></tr>
+        <tr><td>2</td><td>TD</td><td>Jeudi 11/09/25</td><td>A2-Amyot</td><td>Mathieu Dehouck</td><td>Données annotées; POS-tagging par règles</td></tr>
+        <tr class="CM"><td>3</td><td>CM</td><td>Mardi 16/09/25</td><td>A5-Amyot</td><td>Jean Barré</td><td>Approches Computationnelles des Genres Littéraires</td></tr>
+        <tr><td>3</td><td>TD</td><td>Jeudi 18/09/25</td><td>A2-Amyot</td><td>Jean Barré</td><td>Tokenisation et lemmatisation avec Spacy</td></tr>
+        <tr class="CM"><td>4</td><td>CM</td><td>Mardi 23/09/25</td><td>A5-Amyot</td><td>Pascal Amsili</td><td>Modèles de langue simples</td></tr>
+        <tr><td>4</td><td>TD</td><td>Jeudi 25/09/25</td><td>A2-Amyot</td><td>Pascal Amsili</td><td>Programmation d'un modèle n-grammes</td></tr>
+        <tr class="CM"><td>5</td><td>CM</td><td>Mardi 30/09/25</td><td>A5-Amyot</td><td>Pascal Amsili</td><td>Hypothèse distributionnelle</td></tr>
+        <tr><td>5</td><td>TD</td><td>Jeudi 02/10/25</td><td>A2-Amyot</td><td>Pascal Amsili</td><td>Influence de la taille de la fenêtre sur les embeddings distributionnels</td></tr>
+        
+        <!-- Week of Toussaint holidays: 27/10 to 1/11 -->
+        <!-- So skip week of 28/10 and 30/10 -->
+        <tr class="HOL"><td></td><td>--</td><td>Mardi 28/10/25</td><td>Congés</td><td>---</td><td>--</td></tr>
+        <tr class="HOL"><td></td><td>--</td><td>Jeudi 30/10/25</td><td>Congés</td><td>---</td><td>--</td></tr>
+        
+        <tr class="CM"><td>6</td><td>CM</td><td>Mardi 04/11/25</td><td>A5-Amyot</td><td>Jean Barré</td><td>Distances entre textes</td></tr>
+        <tr><td>6</td><td>TD</td><td>Jeudi 06/11/25</td><td>A2-Amyot</td><td>Jean Barré</td><td>Distances entre genres littéraires</td></tr>
+        <tr class="CM"><td>7</td><td>CM</td><td>Mardi 11/11/25</td><td>A5-Amyot</td><td>Mathieu Dehouck</td><td>Réduction de dimensionalité</td></tr>
+        <tr><td>7</td><td>TD</td><td>Jeudi 13/11/25</td><td>A2-Amyot</td><td>Mathieu Dehouck</td><td>Représentation de textes et de caractères</td></tr>
+        <tr class="CM"><td>8</td><td>CM</td><td>Mardi 18/11/25</td><td>A5-Amyot</td><td>Pascal Amsili</td><td>Embeddings statiques: Word2vec</td></tr> 
+        <tr><td>8</td><td>TD</td><td>Jeudi 20/11/25</td><td>A2-Amyot</td><td>Pascal Amsili</td><td>Perceptron</td></tr>
+        <tr class="CM"><td>9</td><td>CM</td><td>Mardi 25/11/25</td><td>A5-Amyot</td><td>Pascal Amsili</td><td>Tâches de TAL: Coref, NLI</td></tr>
+        <tr><td>9</td><td>TD</td><td>Jeudi 27/11/25</td><td>A2-Amyot</td><td>Jean Barré</td><td>Manipulations BookNLP</td></tr>
+        <tr class="CM"><td>10</td><td>CM</td><td>Mardi 02/12/25</td><td>A5-Amyot</td><td>Jean Barré</td><td>Apprentissage supervisé</td></tr>
+        <tr class="TPn"><td>10</td><td>TD</td><td>Jeudi 04/12/25</td><td>A2-Amyot</td><td>Jean Barré</td><td>Classification</td></tr>
+        <tr class="CM"><td>11</td><td>CM</td><td>Mardi 09/12/25</td><td>A5-Amyot</td><td>Pascal Amsili</td><td><s>Apprentissage non supervisé</s></td></tr>
+        <tr><td>11</td><td>TD</td><td>Jeudi 11/12/25</td><td>A2-Amyot</td><td>Jean Barré</td><td>Topic Modelling</td></tr>
+        
+        <!-- Winter break: 22 Dec 2025 to 3 Jan 2026 -->
+        <!-- Skip 16 and 18 Dec? No, they are before winter break. So classes happen on 16 and 18 Dec. -->
+        <tr class="CM"><td>12</td><td>CM</td><td>Mardi 16/12/25</td><td>A5-Amyot</td><td>Mathieu Dehouck</td><td>Réseaux de neurones</td></tr>
+        <tr class="TP"><td>12</td><td>TD</td><td>Jeudi 18/12/25</td><td>A2-Amyot</td><td>Mathieu Dehouck</td><td>Pos-tagging, morphologie, dépendance</td></tr>
+
+        <tr class="HOL"><td></td><td>--</td><td>Mardi 23/12/25</td><td>Congés</td><td>---</td><td>--</td></tr>
+        <tr class="HOL"><td></td><td>--</td><td>Jeudi 25/12/25</td><td>Congés</td><td>---</td><td>--</td></tr>
+        <tr class="HOL"><td></td><td>--</td><td>Mardi 30/12/25</td><td>Congés</td><td>---</td><td>--</td></tr>
+        <tr class="HOL"><td></td><td>--</td><td>Jeudi 01/01/26</td><td>Congés</td><td>---</td><td>--</td></tr>
+
+        <tr class="CM"><td>13</td><td>CM</td><td>Mardi 06/01/26</td><td>A5-Amyot</td><td>Mathieu Dehouck</td><td>Attention et architecture <i>transformer</i> (BERT)</td></tr>
+	<tr class="TPn"><td>13</td><td>TD</td><td>Jeudi 08/01/26</td><td>A5-Amyot</td><td>Mathieu Dehouck</td><td>Model Probing</td></tr>
+	<tr class="CM"><td>14</td><td>CM</td><td>Mardi 13/01/26</td><td>A5-Amyot</td><td>Pascal Amsili</td><td>(Grands) modèles de langue</td></tr>
+	<tr class="TPn"><td>14</td><td>TD</td><td>Jeudi 15/01/26</td><td>A2-Amyot</td><td>Mathieu Dehouck</td><td><i>tbd</i></td></tr>
+        <tr class="CM"><td>15</td><td>CM</td><td>Mardi 20/01/26</td><td>A5-Amyot</td><td>Mathieu Dehouck</td><td>Linguistique computationnelle</td></tr>
+        <tr class="HOL"><td></td><td>--</td><td>Jeudi 22/01/26</td><td>Révisions</td><td>---</td><td>--</td></tr>
+        <tr class="HOL"><td></td><td>--</td><td>Mardi 27/01/26</td><td>Révisions</td><td>---</td><td>--</td></tr>
+        <tr class="HOL"><td></td><td>--</td><td>Jeudi 29/01/26</td><td>Révisions</td><td>---</td><td>--</td></tr>
+        <tr class="EX"><td>15</td><td>EXAM</td><td><b>Lundi</b> 02/02/26</td><td>A2-Amyot</td><td>Pascal Amsili</td><td></td></tr>
+      </tbody>
+    </table>
+    
+  </body>
+</html>
